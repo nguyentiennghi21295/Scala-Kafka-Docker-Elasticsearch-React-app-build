@@ -1,0 +1,3 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(project eventStore, Some(cc433bf1-e2b5-492b-8fb6-a1aaa46a1eca), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to eventStore (in build file:/mnt/c/Users/tienguye/OneDrive%20-%20Capgemini/Documents/HETIC/projet-intensif/miniApp/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

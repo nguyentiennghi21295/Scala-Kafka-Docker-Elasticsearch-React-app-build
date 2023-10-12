@@ -1,0 +1,21 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(d588b203-916d-4f08-ae03-c78c1f0793be), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 11 Scala sources to /mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/Main.scala:14:40: not enough arguments for method stream: (config: com.theshow.core.config.Config, esAlgrebra: com.theshow.core.elasticsearch.EsAlgebra[cats.effect.IO], restHighLevelClient: org.elasticsearch.client.RestHighLevelClient)(implicit evidence$1: cats.effect.Async[cats.effect.IO], evidence$2: cats.effect.std.Console[cats.effect.IO]): fs2.Stream[cats.effect.IO,cats.effect.ExitCode].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter restHighLevelClient.[0m
+[0m[[0m[31merror[0m] [0m[0m    server         <- Server.stream[IO](config, restHighClient)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/server/Server.scala:25:59: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : com.theshow.core.elasticsearch.EsAlgebra[cats.effect.IO][0m
+[0m[[0m[31merror[0m] [0m[0m required: com.theshow.core.elasticsearch.EsAlgebra[F][0m
+[0m[[0m[31merror[0m] [0m[0m              esAlgebra: EsAlgebra[F] = EsAlgebra.impl[IO](config.esConfig, restHighLevelClient)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/server/Server.scala:25:26: abstract type F in type pattern com.theshow.core.elasticsearch.EsAlgebra[F] is unchecked since it is eliminated by erasure[0m
+[0m[[0m[33mwarn[0m] [0m[0m              esAlgebra: EsAlgebra[F] = EsAlgebra.impl[IO](config.esConfig, restHighLevelClient)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Oct 12, 2023, 12:54:04 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

@@ -1,0 +1,115 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(set ThisBuild / scalaVersion := "2.11.12", Some(f2eb7541-06dc-4038-8276-6ad99c5c5836), Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mDefining ThisBuild / scalaVersion[0m
+[0m[[0m[0minfo[0m] [0m[0mThe new value will be used by Compile / bspBuildTarget, Compile / dependencyTreeCrossProjectId and 101 others.[0m
+[0m[[0m[0minfo[0m] [0m[0m	Run `last` for details.[0m
+[0m[[0m[0mdebug[0m] [0m[0mDefining [0m
+[0m[[0m[0mdebug[0m] [0m[0m	ThisBuild / scalaVersion[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mThe new value will be used by [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / bspBuildTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / dependencyTreeCrossProjectId[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / dependencyTreeModuleGraph0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / doc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / doc / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / earlyOutput / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / packageBin / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / packageCache / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / packageDoc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / packageSrc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / tastyFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Compile / unmanagedSourceDirectories[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / bspBuildTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / dependencyTreeCrossProjectId[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / dependencyTreeModuleGraph0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / doc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / doc / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / earlyOutput / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / packageBin / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / packageCache / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / packageDoc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / packageSrc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / tastyFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Test / unmanagedSourceDirectories[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ThisBuild / crossScalaVersions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ThisBuild / scalaBinaryVersion[0m
+[0m[[0m[0mdebug[0m] [0m[0m	allDependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0m	auxiliaryClassFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	crossTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	csrProject[0m
+[0m[[0m[0mdebug[0m] [0m[0m	csrPublications[0m
+[0m[[0m[0mdebug[0m] [0m[0m	dependencyTreeIgnoreMissingUpdate[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / bspBuildTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / dependencyTreeCrossProjectId[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / dependencyTreeModuleGraph0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / doc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / doc / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / earlyOutput / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / packageBin / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / packageCache / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / packageDoc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / packageSrc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / tastyFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Compile / unmanagedSourceDirectories[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / bspBuildTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / dependencyTreeCrossProjectId[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / dependencyTreeModuleGraph0[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / doc[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / doc / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / earlyOutput / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / packageBin / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / packageCache / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / packageDoc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / packageSrc / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / scalacOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / tastyFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / Test / unmanagedSourceDirectories[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / allDependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / auxiliaryClassFiles[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / crossTarget[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / csrProject[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / csrPublications[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / dependencyTreeIgnoreMissingUpdate[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / evicted[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / libraryDependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / makePom / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / pluginCrossBuild / sbtDependency[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / pullRemoteCache / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / remoteCachePom / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaCompilerBridgeBinaryJar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaCompilerBridgeScope / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaCompilerBridgeSource[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaInstance[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaInstanceTopLoader[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / scalaModuleInfo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / update[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / updateClassifiers / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	eventStore / updateFull[0m
+[0m[[0m[0mdebug[0m] [0m[0m	evicted[0m
+[0m[[0m[0mdebug[0m] [0m[0m	libraryDependencies[0m
+[0m[[0m[0mdebug[0m] [0m[0m	makePom / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pluginCrossBuild / sbtDependency[0m
+[0m[[0m[0mdebug[0m] [0m[0m	pullRemoteCache / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	remoteCachePom / artifactPath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaCompilerBridgeBinaryJar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaCompilerBridgeScope / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaCompilerBridgeSource[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaInstance[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaInstanceTopLoader[0m
+[0m[[0m[0mdebug[0m] [0m[0m	scalaModuleInfo[0m
+[0m[[0m[0mdebug[0m] [0m[0m	semanticdbOptions[0m
+[0m[[0m[0mdebug[0m] [0m[0m	update[0m
+[0m[[0m[0mdebug[0m] [0m[0m	updateClassifiers / csrConfiguration[0m
+[0m[[0m[0mdebug[0m] [0m[0m	updateFull[0m
+[0m[[0m[0minfo[0m] [0m[0mReapplying settings...[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to miniapp (in build file:/C:/Users/tienguye/OneDrive%20-%20Capgemini/Documents/HETIC/projet-intensif/miniApp/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
