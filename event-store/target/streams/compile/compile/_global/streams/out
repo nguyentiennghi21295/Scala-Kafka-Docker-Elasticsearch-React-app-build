@@ -1,14 +1,2 @@
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/Main.scala:14:40: not enough arguments for method stream: (config: com.theshow.core.config.Config, esAlgrebra: com.theshow.core.elasticsearch.EsAlgebra[cats.effect.IO], restHighLevelClient: org.elasticsearch.client.RestHighLevelClient)(implicit evidence$1: cats.effect.Async[cats.effect.IO], evidence$2: cats.effect.std.Console[cats.effect.IO]): fs2.Stream[cats.effect.IO,cats.effect.ExitCode].[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter restHighLevelClient.[0m
-[0m[[0m[31merror[0m] [0m[0m    server         <- Server.stream[IO](config, restHighClient)[0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/server/Server.scala:25:59: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : com.theshow.core.elasticsearch.EsAlgebra[cats.effect.IO][0m
-[0m[[0m[31merror[0m] [0m[0m required: com.theshow.core.elasticsearch.EsAlgebra[F][0m
-[0m[[0m[31merror[0m] [0m[0m              esAlgebra: EsAlgebra[F] = EsAlgebra.impl[IO](config.esConfig, restHighLevelClient)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/mnt/c/Users/tienguye/OneDrive - Capgemini/Documents/HETIC/projet-intensif/miniApp/event-store/src/main/scala/com/theshow/core/server/Server.scala:25:26: abstract type F in type pattern com.theshow.core.elasticsearch.EsAlgebra[F] is unchecked since it is eliminated by erasure[0m
-[0m[[0m[33mwarn[0m] [0m[0m              esAlgebra: EsAlgebra[F] = EsAlgebra.impl[IO](config.esConfig, restHighLevelClient)[0m
-[0m[[0m[33mwarn[0m] [0m[0m                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m2 deprecations (since 0.21.27); re-run with -deprecation for details[0m
 [0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

@@ -11,6 +11,7 @@ import fs2.Stream
 import com.theshow.core.kafka.{KafkaConsumerAlgebra, KafkaProducerAlgebra}
 import com.theshow.core.service.IndexService
 import org.elasticsearch.client.RestHighLevelClient
+import org.http4s.server.middleware.{CORS, CORSConfig}
 
 
 
@@ -27,6 +28,14 @@ object Server {
                 KafkaConsumerAlgebra.impl[F](config.kafkaConfig)
               esAlgebra      = EsAlgebra.impl[F](config.esConfig, restHighLevelClient)
               indexService = IndexService.impl[F](kafkaConsumerAlgebra, esAlgebra)
+
+              _ <- Stream.eval(esAlgebra.createIndex)
+
+          corService = CORS(EventRoutes[F](kafkaProducerAlgebra).router,
+              CORSConfig.default.withAllowedOrigins(Set("https://localhost:3000"))
+                .withAllowedMethods(Some(Set(Method.POST)))
+            )
+
 
     server <- BlazeServerBuilder[F]
       .bindHttp(
